@@ -56,9 +56,7 @@ const Portfolio = () => {
             />
           </h1>
         <p className="pl-desc">
-          creative portfolio that your work has been waiting for.
-          Beautiful homes, stunning portfolio styles & a whole lot more awaits
-          inside.
+          I've made projects using JavaScript, HTML, & CSS, as well as frameworks such as React JS and Next JS. Check out my full stack projects implementing MongoDB and Cloudinary, as well as my front end projects that showcase my design capabilities.
         </p>
       </div>
       <div className="pl-list">
