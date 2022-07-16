@@ -15,32 +15,32 @@ const Portfolio = () => {
     {
       id: 1,
       img: ig,
-      link: "http://lama.dev",
+      link: "https://github.com/Faithvorite",
     },
     {
       id: 2,
       img: ig,
-      link: "http://lama.dev",
+      link: "https://github.com/Faithvorite",
     },
     {
       id: 3,
-      img: "../../assets/images/ffartsysite.png",
-      link: "http://lama.dev",
+      img: ig,
+      link: "https://github.com/Faithvorite",
     },
     {
       id: 4,
       img: ig,
-      link: "http://lama.dev",
+      link: "https://github.com/Faithvorite",
     },
     {
       id: 5,
       img: ig,
-      link: "http://lama.dev",
+      link: "https://github.com/Faithvorite",
     },
     {
       id: 6,
       img: ig,
-      link: "http://lama.dev",
+      link: "https://github.com/Faithvorite",
     }
   ]
   return (
