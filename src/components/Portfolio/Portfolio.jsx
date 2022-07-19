@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import ig from "../../assets/images/ffartsysite.png"
+import personalig from "../../assets/images/personalsite.png"
+import artsite from "../../assets/images/artsite.png"
 import AnimatedLetters from '../AnimatedLetters/Animated'
 import "./portfolio.scss"
 
@@ -14,17 +16,17 @@ const Portfolio = () => {
   const products =[
     {
       id: 1,
-      img: ig,
+      img: artsite,
       link: "https://github.com/Faithvorite",
     },
     {
       id: 2,
-      img: ig,
+      img: personalig,
       link: "https://github.com/Faithvorite",
     },
     {
       id: 3,
-      img: ig,
+      img: artsite,
       link: "https://github.com/Faithvorite",
     },
     {

@@ -9,7 +9,7 @@
   }
   .port-bg {
     position: absolute;
-    background-color: rgb(103, 143, 102);
+    background-color: rgb(134, 167, 133);
     clip-path: polygon(45% 0, 100% 38%, 100% 76%, 63% 100%, 0 95%);
     height: 100%;
     width: 100%;
@@ -25,7 +25,7 @@
     font-size: 50px;
     font-family: 'Coolvetica';
     letter-spacing: 4px;
-    margin-top: 50px;
+    margin-top: 70px;
     font-weight: 400;
    
   }
@@ -38,6 +38,7 @@
     margin: 20px 0px;
     animation: fadeIn 1s 1.8s backwards;
     font-size: 15px;
+    letter-spacing: 2px;
   }
   
   .pl-list {
@@ -50,7 +51,7 @@
   
   @media screen and (max-width: 480px) {
     .pl {
-      padding: 10px;
+      padding: 5px;
     }
   
     .pl-texts {
