@@ -22,7 +22,7 @@ const Sidebar = () => {
     <div className={isOpen ? "nav-bar-active" : "nav-bar"}>
       <Link className="logo" to="/">
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img className="sub-logo" src={LogoSubtitle} alt="FN" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/" onClick={()=>setOpen(!isOpen)}>
@@ -43,7 +43,7 @@ const Sidebar = () => {
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
       </nav>
-      <ul>
+      <ul className="navul">
         <li>
           <a
             href="https://www.linkedin.com/in/faith-nguyen-7524a6245/"

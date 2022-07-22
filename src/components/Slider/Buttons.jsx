@@ -2,7 +2,7 @@ import React from "react";
 import "./slider.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowAltCircleDown, faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 export default function BtnSlider({ direction, moveSlide }) {
   console.log(direction, moveSlide);

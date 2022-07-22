@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.3s ease-out;
+    
   
     .logo {
       flex: 1;
@@ -43,6 +44,9 @@
         height: 51px;
         position: relative;
         text-decoration: none;
+        svg{
+          color:rgb(90, 0, 0);
+        }
   
         i {
           display: block;
@@ -147,6 +151,7 @@
     transition: all 0.3s ease-out;
   
     .logo {
+      
       flex: 1;
       img {
        
@@ -313,6 +318,9 @@
           color: rgb(197, 99, 42);
           display: block;
           line-height: 51px;
+          svg{
+            color:rgb(90, 0, 0);
+          }
           height: 51px;
           position: relative;
           text-decoration: none;
@@ -384,13 +392,13 @@
         top: -60px;
       }
     }
-  //   ul {
-  //     display: flex;
-  //     flex-direction: row;
-  //     height: 60px;
-  //     width: 40%;
-  //     margin: 0;
-  //     justify-content: space-between;
-  //     bottom: 0;
-  // }
+    .navul {
+      display: flex;
+      flex-direction: row;
+      height: 60px;
+      width: 40%;
+      margin: 0;
+      justify-content: space-between;
+      bottom: 0;
+  }
 }

@@ -29,7 +29,17 @@ top: 0;
   text-align: center;
   padding-left: 25%;
   min-width: 250px;
-
+  .contact-h1{
+  font-size: 50px;
+  font-family: 'Coolvetica';
+  letter-spacing: 4px;
+  font-weight: 400;
+  }
+.contactp{
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+}
 }
 .contact-form {
     width: 100% !important;

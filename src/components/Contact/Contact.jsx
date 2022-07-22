@@ -47,10 +47,8 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in freelance opportunities - especially ambitious or
-            large projects. However, if you have other request or question,
-            don't hesitate to contact me using below form either.
+          <p className="contactp">
+            Whether you have use for my skills or suggestions for improvement, I would love to hear from you!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>

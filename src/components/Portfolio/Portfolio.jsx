@@ -17,7 +17,9 @@ const Portfolio = () => {
     {
       id: 1,
       img: artsite,
-      link: "https://github.com/Faithvorite",
+      text: "Full stack React NextJS ECommerce Responsive site",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary",
+      link: "https://nextjspersonalartwebsite.vercel.app/",
     },
     {
       id: 2,
@@ -69,9 +71,13 @@ const Portfolio = () => {
              <div className="p-circle"></div>
              <div className="p-circle"></div>
            </div>
+           <div className="ptext">{item.text}
+           <div className="subtext">{item.subtext}</div>
+           </div>
            <a href={item.link} target="_blank" rel="noreferrer">
              <img src={item.img} alt="" className="p-img" />
            </a>
+           
          </div>
         ))}
       </div>
