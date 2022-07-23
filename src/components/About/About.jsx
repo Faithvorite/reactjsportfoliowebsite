@@ -38,22 +38,25 @@ const About = () => {
     <>
       <div className="about-page">
         <div className="abg"></div>
-        <Slider />
-        <div className="about-text-zone">
-          <h1>
+        <h1>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
+        
+        <div className="about-text-zone">
+        <Slider className="aboutslider"/>
           <div className="aboutp">
-
+          <div className="aboutheader">Career Endeavors</div>
           <p>
-     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati totam est rem quis eius illo deserunt, quisquam odio ab, tempore dicta nam reprehenderit sequi ut vitae non temporibus nisi? Ratione?
+     I graduated Cum Laude from UT Austin in 2019, with a B.S. in English and minor in Creative Writing. While English and art have long been my outlets for expression, in 2021 I began studying web development as well. Despite changes in my career path, my goal in life has remained the same - to better my ability to create and communicate.
           </p>
+          <hr></hr>
+          <div className="aboutheader">Personal Pursuits</div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem delectus tempore deleniti, rerum exercitationem tenetur asperiores eos, dolorum, ipsa odit culpa ratione officia. Assumenda, adipisci dolores. Vel sit quas quos.
+            I am a writer, artist, and programmer. 
           </p>
           
           </div>

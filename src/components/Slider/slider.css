@@ -1,16 +1,18 @@
 .container-slider {
 
-    max-width: 700px;
-    width: 90vw;
-    height: 70vh;
-    margin: 100px auto 0;
+    max-width: 600px;
+    width: 50vw;
+    height: 65vh;
+    
     position: relative;
     overflow: hidden;
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); */
   }
-  @media screen and (max-width: 700px){
+  @media screen and (max-width: 800px){
     .container-slider {
-      margin: 100px 10px 0;
+      margin: 5px;
+      width: 90vw;
+    height: 60vh;
     }
   }
   .slide {
@@ -68,8 +70,8 @@
     display: flex;
   }
   .dot {
-    width: 5px;
-    height: 5px;
+    width: 3px;
+    height: 3px;
     border-radius: 50%;
     border: 3px solid #f1f1f1;
     margin: 0 5px;

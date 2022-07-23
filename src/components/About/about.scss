@@ -4,26 +4,45 @@ flex-direction: column ;
 align-items: center;
 height: 200%;
 overflow: hidden;
+
   h1{
-    color: white;
-    font-size: 50px;
+   
+    font-size: 60px;
   font-family: 'Coolvetica';
   letter-spacing: 4px;
   font-weight: 400;
   }
   .about-text-zone {
- 
+    display: flex;
+ padding-top: 0px;
+ padding-left:100px;
     z-index:1;
-  width: 70%;
-  align-items: center;
-
+  width: 90%;
+  .aboutslider{
+    top: 1px;
+    flex: 1;
+  }
+  .aboutp{
+    flex: 1;
+    padding: 20px;
+  }
+.aboutheader{
+  font-family: 'La Belle Aurore' ;
+  letter-spacing: 3px;
+  font-size: 25px;
+  color: white;
+  
+}
+hr{
+  color: white;
+  margin: 40px;
+}
   p {
     font-size: 17px;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     color: white;
-    font-family: sans-serif;
-    font-weight: 300;
-    max-width: fit-content;
+    font-family: 'Times New Roman' sans-serif;
+    font-weight: 200;
     animation: pulse 1s;
     &:nth-of-type(1) {
       animation-delay: 1.1s;
@@ -39,62 +58,22 @@ overflow: hidden;
     }
 .abg {
   position: absolute;
-  background-color: rgb(206, 81, 50);
+  background-color: rgb(199, 96, 64);
   clip-path: polygon(13% 8%, 100% 14%, 100% 100%, 0 100%, 0 17%);
-  height: 200%;
+  height: 150%;
   width: 100%;
   transition: all 1s ease-out;
   // animation: fadeIn 2s 2s backwards;
 }
-.featured {
-  height: 60vh;
-  width: 70vw;
-  margin-top: 90px;
-  align-items: center;
-  justify-content: center;
-  right: 0;
-  object-fit: contain;
 
-  
-  .arrow{
-    position:absolute;
-    margin: auto;
-    font-size: 5rem;
-    width: 10%;
-  height: 20%;
-  top: 0;
-  bottom: 0;
-  color: white;
-  z-index: 2;
-  cursor: pointer;
-  
 }
-
-.wrapper {
-  width: 300vw;
-  height: 60vh;
-  display: flex;
-  transition: all 1.5s ease-in-out;
-}
-
-img{
-  height: 50vh;
-  width: auto;
-  position: relative;
-  object-fit: contain;
-  padding: 10px;
-}
-} 
-}
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .abg{
-    height: 100%;
-  }
-  .featured{
-    width: 70vw;
-    height: 50vh;
+    height: 200% !important;
   }
   .about-text-zone {
     width: 70%;
+    flex-direction: column;
+    padding-left: 0px !important;
   }
   }
