@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
+import admin from "../../assets/images/admindashboard.png"
 import ig from "../../assets/images/ffartsysite.png"
 import personalig from "../../assets/images/personalsite.png"
 import artsite from "../../assets/images/artsite.png"
+import { AiOutlineGithub } from "react-icons/ai";
 import AnimatedLetters from '../AnimatedLetters/Animated'
 import "./portfolio.scss"
 
@@ -17,13 +19,17 @@ const Portfolio = () => {
     {
       id: 1,
       img: artsite,
-      text: "Full stack React NextJS ECommerce Responsive site",
-      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary",
+      text: "Full stack React NextJS ECommerce site w/ Admin Dashboard ",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      gitlink:"https://github.com/Faithvorite/nextjspersonalwebsite",
       link: "https://nextjspersonalartwebsite.vercel.app/",
     },
     {
       id: 2,
-      img: personalig,
+      img: admin,
+      text: "Full stack Admin Dashboard",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      gitlink:"https://github.com/Faithvorite/nextjspersonalwebsite",
       link: "https://github.com/Faithvorite",
     },
     {
@@ -70,6 +76,7 @@ const Portfolio = () => {
              <div className="p-circle"></div>
              <div className="p-circle"></div>
              <div className="p-circle"></div>
+             <div className="gitlink">Visit deployed site or see respository here &#8594; <a href={item.gitlink}target="_blank" rel="noreferrer"><AiOutlineGithub href={item.link}target="_blank" rel="noreferrer"/></a></div>
            </div>
            <div className="ptext">{item.text}
            <div className="subtext">{item.subtext}</div>

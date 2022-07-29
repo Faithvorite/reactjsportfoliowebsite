@@ -6,8 +6,12 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
+  FaInstagram,
   faSkype,
 } from '@fortawesome/free-brands-svg-icons'
+import { AiOutlineInstagram } from "react-icons/ai";
+
+
 import { faHome, faUser, faEnvelope, faSuitcase } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
 import {Squash as Hamburger} from 'hamburger-react'
@@ -68,12 +72,12 @@ const Sidebar = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faYoutube} color="#000000" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/Faithvorite" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
+          <a href="https://www.instagram.com/ffartsy/" rel="noreferrer" target="_blank">
+            <AiOutlineInstagram color="black" />
           </a>
         </li>
       </ul>

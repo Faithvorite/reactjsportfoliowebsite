@@ -49,6 +49,7 @@
     align-items: center;
     padding-left: 25px;
     padding-right: 15px;
+  
      .p:hover{
       box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
      }
@@ -60,7 +61,12 @@
       border-radius: 10px 10px 0px 0px;
       overflow: hidden;
       position: relative;
-      
+      .gitlink {
+        color: gray;
+        text-align: end;
+        width: 100%;
+        padding-right: 5px;
+      }
       .ptext{
         color: white;
         font-size: 15px;
@@ -76,6 +82,7 @@
         -webkit-transition: all 1s ease;
             transition: all 1s ease;
         .subtext{
+          margin-top: 5px;
           font-size: 12px;
           
           letter-spacing: 2px;
