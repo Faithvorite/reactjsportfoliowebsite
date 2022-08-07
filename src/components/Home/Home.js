@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/Animated'
 // import LogoTitle from '../../assets/images/logo-s.png'
-import doodleImg from '../../assets/images/paintingdoodle.png'
+import  DoodleImg from '../../assets/images/doodle.png'
 // import Logo from './Logo'
 import './home.scss'
 
@@ -38,10 +38,7 @@ const Home = () => {
     <>
       <div className="container">
       <div className="logo-container">
-        <img 
-            src={doodleImg}
-            alt="doodle"
-            />
+        <img src={DoodleImg} alt=""/>
         <div className='logo-bg'></div>
         </div>
         <div className="text-zone">
@@ -70,7 +67,7 @@ const Home = () => {
             />
           </h1>
           
-          <h2>Front End Developer / JavaScript Expert / Content Creator / Artist / Writer</h2>
+          <h2> MERN Stack Developer / UI Designer / Artist / Writer</h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>

@@ -1,5 +1,5 @@
 import './navbar.scss'
-import LogoS from '../../assets/images/me.png'
+import LogoS from '../../assets/images/logobrown.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {

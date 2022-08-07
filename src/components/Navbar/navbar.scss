@@ -5,7 +5,7 @@
     height: 100%;
     position: absolute;
     top: 0;
-    z-index: 3;
+    z-index: 999999999999999;
     min-height: 500px;
     display: flex;
     position: fixed;
@@ -15,11 +15,12 @@
     
   
     .logo {
+      top: 0;
       flex: 1;
       img {
        
-      
-        width: 24px;
+        padding: 15px;
+        width: 60px;
         height: auto;
   
         &.sub-logo {
@@ -155,8 +156,8 @@
       flex: 1;
       img {
        
-      
-        width: 24px;
+        padding: 15px;
+        width: 60px;
         height: auto;
   
         &.sub-logo {
@@ -362,7 +363,7 @@
    
     .logo {
       // display: block;
-      padding: 20px;
+      padding: 5px 20px 20px 20px;
       height: 20px;
   
       img {

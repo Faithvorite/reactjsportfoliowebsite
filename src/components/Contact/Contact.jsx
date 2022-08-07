@@ -48,7 +48,7 @@ const Contact = () => {
             />
           </h1>
           <p className="contactp">
-            Whether you have use for my abilities or suggestions for improvement, I would love to hear from you!
+            Whether you have need for my abilities or suggestions for improvement, I would love to hear from you!
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
