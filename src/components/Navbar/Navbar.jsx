@@ -6,8 +6,6 @@ import {
   faLinkedin,
   faGithub,
   faYoutube,
-  FaInstagram,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import { AiOutlineInstagram } from "react-icons/ai";
 
@@ -26,7 +24,7 @@ const Sidebar = () => {
     <div className={isOpen ? "nav-bar-active" : "nav-bar"}>
       <Link className="logo" to="/">
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="FN" />
+        {/* <div>FAITH NGUYEN</div> */}
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/" onClick={()=>setOpen(!isOpen)}>

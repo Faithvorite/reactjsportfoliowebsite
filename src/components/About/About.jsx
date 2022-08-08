@@ -2,10 +2,6 @@ import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters/Animated'
 import './about.scss'
-import Me from "../../assets/images/me.jpg";
-import meUT from "../../assets/images/meUT.jpg"
-import meUT2 from "../../assets/images/meUT2.jpg"
-import mepaint from "../../assets/images/mepainting.jpg"
 import Slider from '../Slider/Slider';
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -16,23 +12,6 @@ const About = () => {
     }, 3000)
   }, [])
 
-    const [index,setIndex]= useState(0);
-    const images = [
-        Me,
-        mepaint,
-        meUT,
-        meUT2
-        
-        
-    ];
-
-    const handleArrow = (direction) => {
-        if(direction==="l") {
-            setIndex(index !== 0 ? index-1 : 2)
-        } if (direction === "r") {
-            setIndex(index !== 2 ? index + 1 : 0)
-        }
-    }
 
   return (
     <>

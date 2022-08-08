@@ -127,7 +127,30 @@
   .p:hover .p-img {
     transform: translateY(-100%);
   }
+
+  @media screen and (max-width: 1000px) {
+    .pl{
+       padding: 5px;
+       .pl-list {
+         width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      animation: fadeIn 1s 1.8s backwards;
+      align-items: center;
+      padding: 10px;
+      margin-left: 150px;
+      
+      .p {
+        width: 80% !important;
+        height: 60vh !important;
+      }
+    }
+  }
   
+   
+  }
+
   @media screen and (max-width: 700px) {
     .pl{
        padding: 5px;
@@ -139,14 +162,6 @@
       animation: fadeIn 1s 1.8s backwards;
       align-items: center;
       padding: 10px;
-      margin-left: 65px;
-      
-      .p {
-        width: 80% !important;
-        height: 60vh !important;
+      margin-left: 70px;
+       }}
       }
-    }
-  }
-  
-   
-  }

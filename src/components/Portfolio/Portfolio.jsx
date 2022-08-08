@@ -2,10 +2,11 @@ import React, { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
 import admin from "../../assets/images/admindashboard.png"
 import ig from "../../assets/images/ffartsysite.png"
-import personalig from "../../assets/images/personalsite.png"
 import artsite from "../../assets/images/artsite.png"
 import { AiOutlineGithub } from "react-icons/ai";
 import AnimatedLetters from '../AnimatedLetters/Animated'
+import ThemeProvider from '../../assets/images/videoPageDarkLight.png'
+import YTUi from "../../assets/images/youtubecloneui.png"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -34,13 +35,19 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      img: artsite,
-      link: "https://github.com/Faithvorite",
+      img: ThemeProvider,
+      text: "Full stack Admin Dashboard",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      gitlink:"https://github.com/Faithvorite/youtubecloneui",
+      link: "https://youtubecloneui.vercel.app/",
     },
     {
       id: 4,
-      img: ig,
-      link: "https://github.com/Faithvorite",
+      img: YTUi,
+      text: "Full stack Admin Dashboard",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      gitlink:"https://github.com/Faithvorite/youtubecloneui",
+      link: "https://youtubecloneui.vercel.app/",
     },
     {
       id: 5,
