@@ -2,7 +2,7 @@
 display: flex;
 flex-direction: column ;
 align-items: center;
-height: 200%;
+
 overflow: hidden;
 
   h1{
@@ -60,7 +60,7 @@ hr{
   position: absolute;
   background-color: rgb(199, 96, 64);
   clip-path: polygon(13% 8%, 100% 14%, 100% 100%, 0 100%, 0 17%);
-  height: 150%;
+  height: 100%;
   width: 100%;
   transition: all 1s ease-out;
   // animation: fadeIn 2s 2s backwards;

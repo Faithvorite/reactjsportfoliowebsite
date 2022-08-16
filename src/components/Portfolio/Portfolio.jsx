@@ -35,19 +35,20 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      img: ThemeProvider,
-      text: "Full stack Admin Dashboard",
-      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      img: YTUi,
+      text: "React YouTube Clone UI Design",
+      subtext:"-Responsive Design | Styled Components | Theme Provider ",
       gitlink:"https://github.com/Faithvorite/youtubecloneui",
       link: "https://youtubecloneui.vercel.app/",
     },
     {
       id: 4,
-      img: YTUi,
-      text: "Full stack Admin Dashboard",
-      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      img: ThemeProvider,
+      text: "Toggle Dark/Light Mode",
+      subtext:"-React | Styled Components | Responsive Design",
       gitlink:"https://github.com/Faithvorite/youtubecloneui",
       link: "https://youtubecloneui.vercel.app/",
+
     },
     {
       id: 5,
@@ -73,7 +74,7 @@ const Portfolio = () => {
             />
           </h1>
         <p className="pl-desc">
-          I've made projects using JavaScript, HTML, & CSS, as well as frameworks such as React JS and Next JS. Check out my full stack projects implementing MongoDB and Cloudinary, as well as my front end projects that showcase my design capabilities.
+          Full stack projects with MERN and responsive UI Designs that showcase my capabilities.
         </p>
       </div>
       <div className="pl-list">

@@ -157,7 +157,7 @@
       img {
        
         padding: 15px;
-        width: 100px;
+        width: 60px;
         height: auto;
   
         &.sub-logo {
@@ -205,14 +205,13 @@
           font-size: 9px;
           letter-spacing: 2px;
           position: absolute;
-          bottom: 3px;
+          bottom: 0;
           display: block;
           width: 100%;
-          text-align: center;
+          text-align: left;
           opacity: 0;
           -webkit-transition: all 0.3s ease-out;
           transition: all 0.3s ease-out;
-          right: 5px;
 
         }
   
@@ -336,6 +335,7 @@
     
             svg {
               opacity: 1;
+              color:rgb(90, 0, 0);
             }
     
             &:after {

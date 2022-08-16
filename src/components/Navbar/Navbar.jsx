@@ -28,13 +28,13 @@ const Sidebar = () => {
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/" onClick={()=>setOpen(!isOpen)}>
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faHome} color="#5A0000" />
         </NavLink>
         <NavLink activeclassname="active" className="about-link" to="/about" onClick={()=>setOpen(!isOpen)}>
-          <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faUser} color="#5A0000" />
         </NavLink>
         <NavLink activeclassname="active" className="portfolio-link" to="/portfolio" onClick={()=>setOpen(!isOpen)}>
-          <FontAwesomeIcon icon={faSuitcase} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faSuitcase} color="#5A0000" />
         </NavLink>
         <NavLink
           activeclassname="active"
@@ -42,7 +42,7 @@ const Sidebar = () => {
           to="/contact"
           onClick={()=>setOpen(!isOpen)}
         >
-          <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+          <FontAwesomeIcon icon={faEnvelope} color="#5A0000" />
         </NavLink>
       </nav>
       <ul className="navul">
@@ -52,7 +52,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faLinkedin} color="brown" />
           </a>
         </li>
         <li>
@@ -61,7 +61,7 @@ const Sidebar = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            <FontAwesomeIcon icon={faGithub} color="brown" />
           </a>
         </li>
         <li>
@@ -70,12 +70,12 @@ const Sidebar = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <FontAwesomeIcon icon={faYoutube} color="#000000" />
+            <FontAwesomeIcon icon={faYoutube} color="brown" />
           </a>
         </li>
         <li>
           <a href="https://www.instagram.com/ffartsy/" rel="noreferrer" target="_blank">
-            <AiOutlineInstagram color="black" />
+            <AiOutlineInstagram color="brown" />
           </a>
         </li>
       </ul>
