@@ -57,6 +57,7 @@ const Portfolio = () => {
       text: "React Native NFT Marketplace UI Design",
       subtext:"-React Native| Design",
       gitlink:"https://github.com/Faithvorite/reactnativenftapp",
+      link: "https://expo.dev/@faithnguyen/reactnativenftapp?serviceType=classic&distribution=expo-go"
       
     },
     {
