@@ -7,6 +7,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import AnimatedLetters from '../AnimatedLetters/Animated'
 import ThemeProvider from '../../assets/images/videoPageDarkLight.png'
 import YTUi from "../../assets/images/youtubecloneui.png"
+import NFT from "../../assets/images/nftapp.png"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -52,8 +53,11 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      img: ig,
-      link: "https://github.com/Faithvorite",
+      img: NFT,
+      text: "React Native NFT Marketplace UI Design",
+      subtext:"-React Native| Design",
+      gitlink:"https://github.com/Faithvorite/reactnativenftapp",
+      
     },
     {
       id: 6,
