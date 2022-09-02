@@ -22,7 +22,7 @@ const Portfolio = () => {
       id: 1,
       img: artsite,
       text: "Full stack React NextJS ECommerce site w/ Admin Dashboard ",
-      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design",
+      subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design|Framer Motion",
       gitlink:"https://github.com/Faithvorite/nextjspersonalwebsite",
       link: "https://nextjspersonalartwebsite.vercel.app/",
     },
