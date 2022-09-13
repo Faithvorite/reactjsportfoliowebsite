@@ -8,6 +8,7 @@ import AnimatedLetters from '../AnimatedLetters/Animated'
 import ThemeProvider from '../../assets/images/videoPageDarkLight.png'
 import YTUi from "../../assets/images/youtubecloneui.png"
 import NFT from "../../assets/images/nftapp.png"
+import nordle from "../../assets/images/nordle.mp4"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -62,8 +63,8 @@ const Portfolio = () => {
     },
     {
       id: 6,
-      img: ig,
-      link: "https://github.com/Faithvorite",
+      img: nordle,
+      link: "https://github.com/Faithvorite/wordleapp",
     }
   ]
   return (
