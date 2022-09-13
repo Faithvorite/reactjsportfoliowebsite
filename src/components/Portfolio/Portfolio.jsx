@@ -8,7 +8,7 @@ import AnimatedLetters from '../AnimatedLetters/Animated'
 import ThemeProvider from '../../assets/images/videoPageDarkLight.png'
 import YTUi from "../../assets/images/youtubecloneui.png"
 import NFT from "../../assets/images/nftapp.png"
-import nordle from "../../assets/images/nordle.mp4"
+import nordle from "../../assets/images/nordle.png"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -64,6 +64,9 @@ const Portfolio = () => {
     {
       id: 6,
       img: nordle,
+      text: "React Native Wordle Game Clone",
+      subtext: "Working Game Logic | Async Storage",
+      gitlink: "https://github.com/Faithvorite/wordleapp",
       link: "https://github.com/Faithvorite/wordleapp",
     }
   ]
