@@ -9,6 +9,7 @@ import ThemeProvider from '../../assets/images/videoPageDarkLight.png'
 import YTUi from "../../assets/images/youtubecloneui.png"
 import NFT from "../../assets/images/nftapp.png"
 import nordle from "../../assets/images/nordle.png"
+import javascriptprojs from "../../assets/images/javascriptprojs.png"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -25,7 +26,7 @@ const Portfolio = () => {
       text: "Full stack React NextJS ECommerce site w/ Admin Dashboard ",
       subtext:"-MongoDB|Redux Toolkit|Rest API|Axios|PayPal|Cookie Auth|Cloudinary|Responsive Design|Framer Motion",
       gitlink:"https://github.com/Faithvorite/nextjspersonalwebsite",
-      link: "https://nextjspersonalartwebsite.vercel.app/",
+      link: "https://faithnguyenart.vercel.app/",
     },
     {
       id: 2,
@@ -45,11 +46,11 @@ const Portfolio = () => {
     },
     {
       id: 4,
-      img: ThemeProvider,
-      text: "Toggle Dark/Light Mode",
-      subtext:"-React | Styled Components | Responsive Design",
-      gitlink:"https://github.com/Faithvorite/youtubecloneui",
-      link: "https://youtubecloneui.vercel.app/",
+      img: javascriptprojs,
+      text: "Javascript Fundamentals Showcase",
+      subtext:"- Tapas App | Countdown Timer | Clock | Whack a Mole Game",
+      gitlink:"https://github.com/Faithvorite/javascriptprojects",
+      link: "https://faithnguyenjs.vercel.app/",
 
     },
     {
