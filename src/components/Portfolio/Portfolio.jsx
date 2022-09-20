@@ -48,7 +48,7 @@ const Portfolio = () => {
       id: 4,
       img: javascriptprojs,
       text: "Javascript Fundamentals Showcase",
-      subtext:"- Tapas App | Countdown Timer | Clock | Whack a Mole Game",
+      subtext:"- Tapas App | Countdown Timer | Clock | Whack a Mole Game |",
       gitlink:"https://github.com/Faithvorite/javascriptprojects",
       link: "https://faithnguyenjs.vercel.app/",
 
