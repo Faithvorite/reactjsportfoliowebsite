@@ -9,24 +9,25 @@
     .port-bg {
       position: absolute;
     background-color: rgb(134, 167, 133);
-    clip-path: polygon(45% 0, 100% 38%, 100% 76%, 63% 100%, 0 95%);
+    clip-path: polygon(0 0, 50% 34%, 100% 0);
     height: 200%;
     width: 100%;
     animation: fadeIn 1s 1.5s backwards;
     z-index: -1111;
-    margin-top: 150px;
+    top: 0;
   }
   .pl-texts {
     width: 65%;
     min-width: 320px;
+    color: white;
   }
   h1{
     font-size: 50px;
     font-family: 'Coolvetica';
     letter-spacing: 4px;
-    margin-top: 70px;
     font-weight: 400;
-    
+    margin-top: 0;
+    color: black;
   }
   .pl-title {
     font-size: 50px;
