@@ -17,6 +17,11 @@
     .logo {
       top: 0;
       flex: 1;
+      font-size: 25px;
+      text-decoration: none;
+      padding: 15px;
+      color:rgb(90, 0, 0);
+      font-weight: bold;
       img {
        
         padding: 15px;
@@ -152,8 +157,13 @@
     transition: all 0.3s ease-out;
   
     .logo {
-      
+      top: 0;
       flex: 1;
+      font-size: 25px;
+      text-decoration: none;
+      padding: 15px;
+      color:rgb(90, 0, 0);
+      font-weight: bold;
       img {
        
         padding: 15px;
@@ -363,8 +373,13 @@
    
     .logo {
       // display: block;
-      padding: 5px 20px 20px 20px;
-      height: 20px;
+      top: 0;
+      flex: 1;
+      font-size: 25px;
+      text-decoration: none;
+      padding: 15px;
+      color:rgb(90, 0, 0);
+      font-weight: bold;
   
       img {
         margin: 8px;

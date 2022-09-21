@@ -23,7 +23,8 @@ const Sidebar = () => {
     <Hamburger className="hamburger-react" toggled={isOpen} toggle={setOpen} />
     <div className={isOpen ? "nav-bar-active" : "nav-bar"}>
       <Link className="logo" to="/">
-        <img src={LogoS} alt="Logo" />
+        FN
+        {/* <img src={LogoS} alt="Logo" /> */}
         {/* <div>FAITH NGUYEN</div> */}
       </Link>
       <nav>
