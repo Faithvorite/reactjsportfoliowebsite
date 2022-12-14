@@ -10,6 +10,7 @@ import YTUi from "../../assets/images/youtubecloneui.png"
 import NFT from "../../assets/images/nftapp.png"
 import nordle from "../../assets/images/nordle.png"
 import javascriptprojs from "../../assets/images/javascriptprojs.png"
+import metaMessenger from "../../assets/images/meta_messenger.png"
 import "./portfolio.scss"
 
 const Portfolio = () => {
@@ -55,11 +56,11 @@ const Portfolio = () => {
     },
     {
       id: 5,
-      img: NFT,
-      text: "React Native NFT Marketplace UI Design",
-      subtext:"-React Native| Design",
-      gitlink:"https://github.com/Faithvorite/reactnativenftapp",
-      link: "https://expo.dev/@faithnguyen/reactnativenftapp?serviceType=classic&distribution=expo-go"
+      img: metaMessenger,
+      text: "Next.js 13 Messenger App",
+      subtext:"-TypeScript | Tailwind CSS | Upstash | Redis | NextAuth | Pusher ",
+      gitlink:"https://github.com/Faithvorite/meta-messenger",
+      link: "https://my-meta-messenger.vercel.app/"
       
     },
     {
